@@ -40,7 +40,7 @@ export default class HTML extends React.Component {
             key={`body`}
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
-            style={{maxHeight:"100vh", overflowY: "scroll", padding: "50px 0"}}
+            style={{maxHeight:"100vh", overflowY: "scroll", padding: "50px 0", "WebkitOverflowScrolling": "touch"}}
           />
           {this.props.postBodyComponents}
         </body>
