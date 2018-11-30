@@ -28,7 +28,9 @@ export default class HTML extends React.Component {
               `  background-image: url(${require(`./bgs/bg-0${this.randNum(
                 1,
                 50
-              )}.jpg`)}) !important;`,
+              )}.jpg`)}) !important;
+              background-repeat: no-repeat;
+              background-size: cover;`,
               '}',
             ].join('\n'),
           }}
@@ -38,6 +40,7 @@ export default class HTML extends React.Component {
             key={`body`}
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
+            style={{maxHeight:"100vh", overflowY: "scroll", padding: "50px 0"}}
           />
           {this.props.postBodyComponents}
         </body>

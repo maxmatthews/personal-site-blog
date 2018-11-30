@@ -22,7 +22,6 @@ injectGlobal`
   body {
     font-family: 'Open Sans', sans-serif; 
     line-height: 1.5;
-    padding: 50px 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

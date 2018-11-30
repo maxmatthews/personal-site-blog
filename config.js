@@ -1,6 +1,6 @@
 module.exports = {
-  title: '/* MZM */', // Required
-  author: 'Max Matthews', // Required
+  title: '/* MZM */ || Max Matthews', // Required
+  author: '/* MZM */', // Required
   description: '//Experiences of a full stack developer, hacker, entrepreneur and mentor || Max Matthews',
   primaryColor: 'white', // Required
   showHeaderImage: true,
