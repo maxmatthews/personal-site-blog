@@ -10,7 +10,7 @@ const ContinueReading = styled(GatsbyLink)`
   text-decoration: none;
 
   &:hover {
-    color: ${userConfig.primaryColor};
+    color: black;
   }  
 `;
 

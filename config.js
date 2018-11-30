@@ -2,7 +2,7 @@ module.exports = {
   title: '/* MZM */', // Required
   author: 'Max Matthews', // Required
   description: '//Experiences of a full stack developer, hacker, entrepreneur and mentor || Max Matthews',
-  primaryColor: '#102F2F', // Required
+  primaryColor: 'white', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required

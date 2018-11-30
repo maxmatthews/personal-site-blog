@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const SocialLink = styled.a`
   border: 1px solid #bfc8d2;
   border-radius: 15px;
-  color: #3e465b;
+  color: white;
   display: inline-block;
   margin: 5px;
   padding: 5px 10px;

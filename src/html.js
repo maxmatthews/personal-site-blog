@@ -3,6 +3,10 @@ import React from 'react';
 import favicon from './favicon.ico';
 
 export default class HTML extends React.Component {
+  randNum(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min
+  }
+
   render() {
     return (
       <html {...this.props.htmlAttributes}>
@@ -17,7 +21,19 @@ export default class HTML extends React.Component {
           <link rel="shortcut icon" href={favicon} />
         </head>
         <body {...this.props.bodyAttributes}>
-          {this.props.preBodyComponents}
+        <style
+          dangerouslySetInnerHTML={{
+            __html: [
+              'body {',
+              `  background-image: url(${require(`./bgs/bg-0${this.randNum(
+                1,
+                50
+              )}.jpg`)}) !important;`,
+              '}',
+            ].join('\n'),
+          }}
+        />
+        {this.props.preBodyComponents}
           <div
             key={`body`}
             id="___gatsby"
