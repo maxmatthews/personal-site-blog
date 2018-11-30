@@ -6,7 +6,7 @@ const Article = styled.article`
   font-size: 16px;
 
   a {
-    color: ${userConfig.primaryColor};
+    color: black;
     font-weight: 700;
     text-decoration: none;
 
