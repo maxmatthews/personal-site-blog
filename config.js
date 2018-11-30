@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
-  primaryColor: '#3498db', // Required
+  title: '/* MZM */', // Required
+  author: 'Max Matthews', // Required
+  description: '//Experiences of a full stack developer, hacker, entrepreneur and mentor || Max Matthews',
+  primaryColor: '#102F2F', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald',
+    website: 'https://maxmatthe.ws',
+    github: 'https://github.com/maxmatthews',
+    twitter: 'https://twitter.com/teckno101',
+    linkedin: 'https://linkedin.com/in/maxzmatthews',
   },
   pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  siteUrl: 'https://blog.maxmatthe.ws',
 };
